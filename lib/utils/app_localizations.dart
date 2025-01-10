@@ -1,0 +1,141 @@
+class AppLocalizations {
+  static final Map<String, Map<String, String>> _localizedValues = {
+    'English': {
+      'search_hint': 'Enter text to search',
+      'search': 'Search',
+      'error_occurred': 'An error occurred',
+      'language': 'Language',
+      'empty_input': 'Please enter some text',
+    },
+    'Turkish': {
+      'search_hint': 'Aramak istediğiniz kelimeyi girin',
+      'search': 'Arama',
+      'error_occurred': 'Bir hata oluştu',
+      'language': 'Dil',
+      'empty_input': 'Lütfen bir metin girin',
+    },
+    'German': {
+      'search_hint': 'Geben Sie den Suchtext ein',
+      'search': 'Suche',
+      'error_occurred': 'Ein Fehler ist aufgetreten',
+      'language': 'Sprache',
+      'empty_input': 'Bitte geben Sie einen Text ein',
+    },
+    'Chinese': {
+      'search_hint': '请输入搜索文本',
+      'search': '搜索',
+      'error_occurred': '发生错误',
+      'language': '语言',
+      'empty_input': '请输入文本',
+    },
+    'Spanish': {
+      'search_hint': 'Ingrese texto para buscar',
+      'search': 'Buscar',
+      'error_occurred': 'Ocurrió un error',
+      'language': 'Idioma',
+      'empty_input': 'Por favor ingrese algún texto',
+    },
+    'French': {
+      'search_hint': 'Entrez le texte à rechercher',
+      'search': 'Rechercher',
+      'error_occurred': 'Une erreur est survenue',
+      'language': 'Langue',
+      'empty_input': 'Veuillez entrer du texte',
+    },
+    'Italian': {
+      'search_hint': 'Inserisci il testo da cercare',
+      'search': 'Cerca',
+      'error_occurred': 'Si è verificato un errore',
+      'language': 'Lingua',
+      'empty_input': 'Inserisci del testo',
+    },
+    'Japanese': {
+      'search_hint': '検索するテキストを入力',
+      'search': '検索',
+      'error_occurred': 'エラーが発生しました',
+      'language': '言語',
+      'empty_input': 'テキストを入力してください',
+    },
+    'Korean': {
+      'search_hint': '검색할 텍스트 입력',
+      'search': '검색',
+      'error_occurred': '오류가 발생했습니다',
+      'language': '언어',
+      'empty_input': '텍스트를 입력하세요',
+    },
+    'Russian': {
+      'search_hint': 'Введите текст для поиска',
+      'search': 'Поиск',
+      'error_occurred': 'Произошла ошибка',
+      'language': 'Язык',
+      'empty_input': 'Пожалуйста, введите текст',
+    },
+    'Arabic': {
+      'search_hint': 'أدخل النص للبحث',
+      'search': 'بحث',
+      'error_occurred': 'حدث خطأ',
+      'language': 'اللغة',
+      'empty_input': 'الرجاء إدخال نص',
+    },
+    'Hindi': {
+      'search_hint': 'खोजने के लिए टेक्स्ट दर्ज करें',
+      'search': 'खोज',
+      'error_occurred': 'एक त्रुटि हुई',
+      'language': 'भाषा',
+      'empty_input': 'कृपया कुछ टेक्स्ट दर्ज करें',
+    },
+    'Portuguese': {
+      'search_hint': 'Digite o texto para pesquisar',
+      'search': 'Pesquisar',
+      'error_occurred': 'Ocorreu um erro',
+      'language': 'Idioma',
+      'empty_input': 'Por favor, digite algum texto',
+    },
+    'Dutch': {
+      'search_hint': 'Voer tekst in om te zoeken',
+      'search': 'Zoeken',
+      'error_occurred': 'Er is een fout opgetreden',
+      'language': 'Taal',
+      'empty_input': 'Voer tekst in',
+    },
+    'Vietnamese': {
+      'search_hint': 'Nhập văn bản để tìm kiếm',
+      'search': 'Tìm kiếm',
+      'error_occurred': 'Đã xảy ra lỗi',
+      'language': 'Ngôn ngữ',
+      'empty_input': 'Vui lòng nhập văn bản',
+    },
+    'Thai': {
+      'search_hint': 'ป้อนข้อความที่ต้องการค้นหา',
+      'search': 'ค้นหา',
+      'error_occurred': 'เกิดข้อผิดพลาด',
+      'language': 'ภาษา',
+      'empty_input': 'กรุณาป้อนข้อความ',
+    },
+    'Greek': {
+      'search_hint': 'Εισάγετε κείμενο για αναζήτηση',
+      'search': 'Αναζήτηση',
+      'error_occurred': 'Παρουσιάστηκε σφάλμα',
+      'language': 'Γλώσσα',
+      'empty_input': 'Παρακαλώ εισάγετε κείμενο',
+    },
+    'Polish': {
+      'search_hint': 'Wprowadź tekst do wyszukania',
+      'search': 'Szukaj',
+      'error_occurred': 'Wystąpił błąd',
+      'language': 'Język',
+      'empty_input': 'Proszę wprowadzić tekst',
+    },
+    'Ukrainian': {
+      'search_hint': 'Введіть текст для пошуку',
+      'search': 'Пошук',
+      'error_occurred': 'Сталася помилка',
+      'language': 'Мова',
+      'empty_input': 'Будь ласка, введіть текст',
+    },
+  };
+
+  static String getString(String key, String language) {
+    return _localizedValues[language]?[key] ?? _localizedValues['English']![key]!;
+  }
+} 
